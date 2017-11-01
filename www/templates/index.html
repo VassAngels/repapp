@@ -1,0 +1,23 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Welcome</title>
+      <link rel="stylesheet" href="{% static 'normalize_.css' %}"></link>
+      <link rel="stylesheet" href="{% static 'main1.css' %}"></link>
+    </head>
+    <body>
+      <main>
+        <h1>Welcome</h1>
+        {% for person in people%}
+          <section>
+            <img src="{{person.image}}"/>
+            <h2>{{person.name}}</h2>
+            <p class="person-title">{{ person.title }}</p>
+            <p class ="person-email">{{ person.email }}</p>
+          </section>
+        {%endfor%}
+      </main>
+    </body>
+  </html>

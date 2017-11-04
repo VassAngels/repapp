@@ -2,9 +2,20 @@
   "model":"www.person",
   "pk":1,
   "fields":{
-    "name":"George Walle",
-    "title":"Course Director",
+    "name":"Vassilis Angelis",
+    "title":"CEO",
     "email":"basket@all.com",
-    "image":"https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/3/000/214/0f7/3b4352.jpg"
+    "image":"https://0.academia-photos.com/103341/28441/26184/s200_vassilis.angelis.jpg"
   }
-  }]
+},
+  {
+    "model":"www.person",
+    "pk":2,
+    "fields":{
+      "name":"Agota Solyomi",
+      "title":"Cica",
+      "email":"basket@all.com",
+      "image":"https://media-exp1.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAyOAAAAJGMyYTJhNmJiLTE0M2EtNGQ3ZS1iYWNiLTkyMTBkMGFjOGQ0OQ.jpg"
+    }
+  }
+  ]

@@ -4,3 +4,11 @@ from .models import Person
 def index(request):
     people=Person.objects.all()
     return render(request,'index.html', {'people':people})
+
+def explore(request):
+    people=Person.objects.all()
+    return render(request,'explore.html', {'people':people})
+
+def index2(request):
+    people=Person.objects.all()
+    return render(request,'index2.html', {'people':people})

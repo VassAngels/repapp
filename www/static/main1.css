@@ -1,12 +1,13 @@
 body{
-  background-color: #ddd;
-  font-size: 67px
+  background-color: white;
+  font-size: 167px
   padding:0;
   margin:0;
 }
 main{
   padding: 0;
   margin: 0 auto;
+  background-color: lightgreen;
 }
 section {
   padding: 0;
@@ -19,7 +20,7 @@ section {
   margin: 0 10px 10px 10px;
 }
 img{
-  border-radius: 120px;
+  border-radius: 450px;
   width: :5%;
 }
 h2{
